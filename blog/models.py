@@ -15,7 +15,7 @@ class Post(models.Model):
 	# models.TextField - for long text without a limit
 	text = models.TextField()
 	# models.DateTimeField - date and time
-	Create_date = models.DateTimeField(
+	created_date = models.DateTimeField(
 		default=timezone.now)
 	published_date = models.DateTimeField(
 		blank=True, null=True)
